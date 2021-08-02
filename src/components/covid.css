@@ -30,7 +30,47 @@ ul{
     width: 400px;
     margin: 25px;
     align-items: center;
-    background-color: rgb(60, 160, 57);
+    background-color: rgb(131, 57, 160);
+}
+
+.card_recovered:hover {
+    height: 150px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(60, 168, 50);
+}
+
+.card_confirmed:hover {
+    height: 150px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(57, 160, 155);
+}
+
+.card_deaths:hover {
+    height: 150px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(160, 57, 57);
+}
+
+.card_active:hover {
+    height: 150px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(177, 138, 31);
+}
+
+.card_updated:hover {
+    height: 150px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(182, 207, 38);
 }
 
 .card_name{

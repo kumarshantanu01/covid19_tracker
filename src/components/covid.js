@@ -37,7 +37,7 @@ const Covid = () => {
         </li>
 
         <li className="card">
-            <div className="card_main">
+            <div className="card_main card_recovered">
             <div className="card_inner">
             <p className="card_name"><span>TOTAL </span>RECOVERED</p>
             <p className="card_total ">{data.recovered}</p>
@@ -46,7 +46,7 @@ const Covid = () => {
         </li>
 
         <li className="card">
-            <div className="card_main">
+            <div className="card_main card_confirmed">
             <div className="card_inner">
             <p className="card_name"><span>TOTAL </span>CONFIRMED</p>
             <p className="card_total ">{data.confirmed}</p>
@@ -55,7 +55,7 @@ const Covid = () => {
         </li>
 
         <li className="card">
-            <div className="card_main">
+            <div className="card_main card_deaths">
             <div className="card_inner">
             <p className="card_name"><span>TOTAL </span>DEATHS</p>
             <p className="card_total ">{data.deaths}</p>
@@ -64,7 +64,7 @@ const Covid = () => {
         </li>
 
         <li className="card">
-            <div className="card_main">
+            <div className="card_main card_active">
             <div className="card_inner">
             <p className="card_name"><span>TOTAL </span>ACTIVE</p>
             <p className="card_total ">{data.active}</p>
@@ -73,7 +73,7 @@ const Covid = () => {
         </li>
 
         <li className="card">
-            <div className="card_main">
+            <div className="card_main card_updated">
             <div className="card_inner">
             <p className="card_name"><span>LAST </span>UPDATED</p>
             <p className="card_total ">{data.lastupdatedtime}</p>
